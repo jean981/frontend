@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DIV: o elemento da divisao em HTML </title>
+</head>
+  <body>
+<h3> Definição básica </h3>
+<br> É definido como um contêiner genérico para conteúdo de fluxo.<br>
+<br>Dessa forma, é possível formatar e manipular os elementos,<br>
+inclusive a própria div, através do CSS de uma forma organizada.<br>
+Geralmente é acompanha de atributos de ID e classe, para poder
+<br>facilitar essa organização e formatação.
+<br>
+<h3> Principais atributos do elemento DIV </h3>
+<ul>
+  <li>id     – Define uma ID;</li>
+  <li>class  – Define uma classe;</li>
+  <li>title  – Define um título;</li>
+  <li>height – Define uma altura;</li>
+  <li>width  – Define uma largura;</li>
+</ul>
+<h3> Utilizando a DIV </h3>
+<h4> Estrutura básica</h4>
+Exemplo 1
+<div>
+    <p>Divisão 01</p>
+</div>
+<div>
+    <p>Divisão 02</p>
+</div>
+<div>
+    <p>Divisão 03</p>
+</div>
+Exemplo 2 - ID e classe<br>
+<br>Conforme explicado anteriormente, o HTML Div comporta receber<br>
+os atributos ID e Class. Ou seja, é possível atribuir à uma div um ID único<br>
+ou uma ou mais classes. Isso nos permite formatar um ou mais elementos <br>
+de forma mais especifica e facilitada.
+<div id="Identificacao da DIV">
+    <h2>Meu documento sobre Div HTML</h2>
+</div>
+<div id="Identificacao da DIV">
+    <div class="Classe da DIV">
+        <h3>Meu conteúdo 01</h3>
+        <p>Meu paragrafo contendo texto</p>
+        <p>Meu paragrafo contendo texto</p>
+    </div>
+    <div class="Classe da DIV">
+        <h3>Meu conteúdo 02</h3>
+        <p>Meu paragrafo contendo texto</p>
+        <p>Meu paragrafo contendo texto</p>
+    </div>
+</div>
+<div id="Identificacao da DIV">
+    <p>Todos os direitos reservados</p>
+</div>
+Exemplo 3 - Aplicando uma camada CSS ao Exemplo 2<br>
+<br>
+<style>
+    #cabecalho{
+        background-color: #4F4F4F;
+        width: 600px;
+        padding: 40px 2%;
+        color: #F0FFF0;
+        text-align: center;
+    }
+    #corpo{
+        background-color: black;
+        width: 600px;
+        padding: 10px 2%;
+    }
+    #rodape{
+        width: 600px;
+        padding: 10px 2%;
+        background-color: #4F4F4F;
+        color: #F0FFF0;
+        text-align: center;
+    }
+
+    .sessao_conteudo{
+        text-align: center;
+        width: 100%;
+        background-color: DarkGoldenrod;
+    }
+</style>
+<div id="cabecalho">
+    <h2>Meu documento sobre Div HTML</h2>
+</div>
+<div id="corpo">
+    <div class="sessao_conteudo">
+        <h3>Meu conteúdo 01</h3>
+        <p>Meu paragrafo contendo texto</p>
+        <p>Meu paragrafo contendo texto</p>
+    </div>
+    <div class="sessao_conteudo">
+        <h3>Meu conteúdo 02</h3>
+        <p>Meu paragrafo contendo texto</p>
+        <p>Meu paragrafo contendo texto</p>
+    </div>
+</div>
+<div id="rodape">
+    <p>Todos os direitos reservados</p>
+</div>
+<br>
+Exemplo 4 -DIV e o CSS Float <br>
+<br>
+Existe uma propriedade muito útil do CSS chamado de float, ou flutuação.<br>
+Desta forma é possível manter um elemento flutuado. Por exemplo, quando é preciso<br>
+manter duas DIV's em uma mesma linha. Ou ainda quando queremos manter um texto e uma<br>
+div flutuando ao lado desse texto. Podemos utilizar o float:left;para flutuar o elemento à esquerda<br>
+ou ainda o float:right; para flutuar o elemento à direita.<br>
+Para limpar uma flutuação podemos usar o float:none;.<br>
+Porém, a flutuação é uma propriedade um pouco imprecisa, portanto, recomenda-se<br>
+utilizá-la aliada a propriedades de margem ou padding.<br>
+
+<style>
+       div.container{
+           width: 400px;
+           background-color: #ccc;
+           height: auto;
+       }
+       div1{
+           width: 100px;height: 100px;
+       }
+       .esquerda{
+           background-color: green;
+           float: left;
+       }
+       .direita{
+           background-color: blue;
+           float: right;
+       }
+       .flutuante{
+            background-color: green;
+            float: left;
+            width: 100px;height: 100px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+   </style>
+     <br>
+   <div class="container">
+        <div class="esquerda">Div 01</div>
+        <div class="direita">Div 02</div>
+        <div style="clear: both;"></div>
+    </div>
+    <br>
+    Exemplo 5 -DIV, CSS Float e imagem <br>
+    <br>
+    <div class="container">
+      <div class="flutuante">Div 01</div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec metus euismod, eleifend massa ac, maximus turpis.
+      Nunc tincidunt massa risus, vitae efficitur sapien posuere eget. Class aptent taciti sociosqu ad litora torquent per conubia nostra,
+      per inceptos himenaeos. Donec vel posuere risus.</p>
+      <div style="clear: both;"></div>
+    </div>
+  </body>
+</html>

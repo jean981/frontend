@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Aprendendo o HTML Básico</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <header>
+        <h1>Minha primeira página HTML</h1>
+        <p>Aprendendo HTML Básico com exercicio prático</p>
+        <br/>
+        <nav>
+            <p>Menu:</p>
+            <ul>
+                <li><a href="#sessao_principal">Sobre o artigo HTML Básicol</a></li>
+                <li><a href="#sessao_2">Onde aprender mais sobre HTML Básico</a></li>
+                <li><a href="#contato">Entre em Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sessao_principal">
+            <h2>Sobre o artigo HTML Básico</h2>
+            <article>
+                <h3>O que aprendi com o artigo HTML Básico</h3>
+                <p>Inicialmente, aprendi sobre o Que é HTML</p>
+                <p>Posteriormente aprendi como funciona o HTML e sua estrutura básica</p>
+                <p>Posteriormente aprendi sobre as Tags do HTML</p>
+                <p>Posteriormente aprendi sobre classes e IDs</p>
+                <p>...</p>
+                <img src="icone-html-1.jpg">
+            </article>
+            <article>
+                <h3>O que estou aprendendo agora:</h3>
+                <p>Agora estou fazendo exercicios práticos para criar uma página HTML!</p>
+            </article>
+        </section>
+    </main>
+    <br/>
+    <br/>
+    <section id="sessao_2">
+        <div class="divisao">
+            <h2>Onde aprender mais sobre HTML Básico</h2>
+            <p>Para aprender mais sobre HTML Básico e outros conteúdos podemos acessar o blog Cursos Técnicos</p>
+            <iframe width="410px" height="300px" src="icone-html-2.jpg"></iframe>
+            <p><a href="https://sites.google.com/view/jeandesa">Site do blog do Professor Jean</a></p>
+        </div>
+        <br>
+        <div>
+            <h2>Minha primeira tabela</h2>
+            <p>Minha tabela contendo as tags de título</p>
+            <table border="1">
+              <caption>Exemplo 02</caption>
+              <tr>
+                <td>Dia</td>
+                <td>Mes</td>
+                <th>&nbsp;</th>
+                <td>Ano</td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>Set</td>
+                <th>&nbsp;</th>
+                <td>1964</td>
+              </tr>
+              <tr>
+                <td>03</td>
+                <td>Out</td>
+                <th>&nbsp;</th>
+                <td>1996</td>
+              </tr>
+            </table><br>
+            <table border="2">
+              <caption>Exemplo 03</caption>
+              <tr>
+                <td>Dia</td>
+                <th>&nbsp;&nbsp;</th>
+                <td>Mes</td>
+                <td>Ano</td>
+              </tr>
+              <tr>
+                <td>19</td>
+                <th>&nbsp;&nbsp;</th>
+                <td>Jan</td>
+                <td>1948</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <th>&nbsp;&nbsp;</th>
+                <td>Abr</td>
+                <td>2001</td>
+              </tr>
+            </table><br>
+            <table border="3">
+              <caption>Exemplo 04</caption>
+              <tr>
+                <th>&nbsp;&nbsp;&nbsp;</th>
+                <td>Dia</td>
+                <td>Mes</td>
+                <td>Ano</td>
+              </tr>
+              <tr>
+                <th>&nbsp;&nbsp;&nbsp;</th>
+                <td>23</td>
+                <td>Mar</td>
+                <td>2018</td>
+              </tr>
+              <tr>
+                <th>&nbsp;&nbsp;&nbsp;</th>
+                <td>21</td>
+                <td>Jul</td>
+                <td>1999</td>
+              </tr>
+            </table>
+        </div>
+    </section>
+    <section id="contato">
+        <h2>Entre em contato</h2>
+        <p>Preencha o formulário abaixo para poder entrar em contato!</p>
+        <form method="get">
+            <div>
+                <span>Nome:</span>
+                <input type="text" name="nome">
+            </div>
+            <br>
+            <div>
+                <span>Email:</span>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <span>Mensagem:</span><br>
+                <textarea></textarea>  <input type="submit" value="enviar">
+            </div>
+            <br>
+            <!--<div>
+                <input type="submit" value="enviar">
+            </div>
+            -->
+        </form>
+    </section>
+
+    <footer>
+        <p>Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
