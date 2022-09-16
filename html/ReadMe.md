@@ -17,16 +17,9 @@ Explicando um pouco melhor… Com as tags, indicamos ao buscador qual é a categ
 
 Trabalhar com HTML 5 permite separar ainda mais o conteúdo da forma e criar sites que são altamente eficientes tanto para o algoritmo dos buscadores, como para os usuários de carne e osso. Geralmente, um programador HTML usa um programa especializado, como o notepad ++, que facilita a diferenciação entre as tags e o conteúdo.</p>
 
-:globe_with_meridians:Fonte: https://tutano.trampos.co/10823-guia-profissoes-desenvolvedora-front-end/
-
 ## 🛠 Habilidades
-  
- 
- | Tecnologias |O que são |
-|--:|---------|
-| <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=plastic&logo=javascript&logoColor=%23F7DF1E"/>|   linguagem de Programação                      |
-| <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=plastic&logo=css3&logoColor=white"/>     |   folhas de estilização | 
-|<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white"/>    |  linguagem de marcação  |         
+
+<img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=plastic&logo=html5&logoColor=white"/>        
   
   
 ## Tecnologias Envolvidas: 
