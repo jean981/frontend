@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras Formatações</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código Fonte</h2>
+    <p>o comando <code>documents.getElementsById</code> é escrito na linguagem JavaScript</p>
+    <p>
+        <pre>
+            <code>
+    private String readGetMoLine(LineIterator reader) {
+        String line ="";
+        while (reader.hasNext()) {
+            line = reader.nextLine();
+            if (line.startsWith(MO)) {
+                break;
+            }
+        }
+        return line;
+    }
+            </code>
+        </pre>
+        <h2>Citaçoes</h2>
+        <p>Como diria o pai de um amigo :<q>O computador é um burro muito rápido.</q></p>
+
+        <h2>um bloco de citaçao</h2>
+        <blockquote cite="https://robsoncastilho.com.br/2017/04/09/como-testar-que-o-metodo-disparou-a-excecao-com-a-mensagem-correta-dica-rapida/">
+            Vejam que o Assert.Throws(), além de verificar se o método testado dispara a exceção esperada, retorna a exceção! Com isso, podemos usar outras asserções abaixo dele, para verificarmos a propriedade “Message” da exceção e quaisquer outras propriedades que desejarmos. (O xUnit.net, outro framework de testes que vem se popularizando, possui API semelhante).
+        </blockquote>
+        <p>Estou estudando <abbr title="HiperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr> e estou adorando!</p>
+        <p><bdo dir="rtl">Texto invertido para nao ter utilidade</bdo></p>
+    </p>
+</body>
+</html>
