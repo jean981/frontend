@@ -45,12 +45,7 @@
 
 }
 
-const dev = {
-    nome: 'Renan',
-    linguagemPreferida: 'JavaScript'
-};
-
-new People('joe',30,20).whoAmI(15);
+joe = new People('joe',1.77,95);
 joe.whoAmI(25);
 console.log('And my IMC is '+ joe.calculateIMC());
 console.log('So Im '+ joe.imcClassification());
